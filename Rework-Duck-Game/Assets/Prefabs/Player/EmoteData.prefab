@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3396422877157289069
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3396422877157289068}
+  - component: {fileID: 940276065668541716}
+  m_Layer: 0
+  m_Name: EmoteData
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3396422877157289068
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3396422877157289069}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.3668933, y: 1.7913017, z: -0.25390625}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &940276065668541716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3396422877157289069}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a562fc7cbc888fe43a4f4d3719cf5fdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  availableEmotes:
+  - {fileID: 21300034, guid: 056a44ba793f718419936e9a36275bc3, type: 3}
+  - {fileID: 21300008, guid: 056a44ba793f718419936e9a36275bc3, type: 3}
+  - {fileID: 21300010, guid: 056a44ba793f718419936e9a36275bc3, type: 3}
+  - {fileID: 21300012, guid: 056a44ba793f718419936e9a36275bc3, type: 3}
+  - {fileID: 21300014, guid: 056a44ba793f718419936e9a36275bc3, type: 3}
+  - {fileID: 21300016, guid: 056a44ba793f718419936e9a36275bc3, type: 3}
+  - {fileID: 21300018, guid: 056a44ba793f718419936e9a36275bc3, type: 3}
+  - {fileID: 21300020, guid: 056a44ba793f718419936e9a36275bc3, type: 3}
+  - {fileID: 21300022, guid: 056a44ba793f718419936e9a36275bc3, type: 3}
+  - {fileID: 21300024, guid: 056a44ba793f718419936e9a36275bc3, type: 3}
+  - {fileID: 21300026, guid: 056a44ba793f718419936e9a36275bc3, type: 3}
+  - {fileID: 21300028, guid: 056a44ba793f718419936e9a36275bc3, type: 3}
+  - {fileID: 21300030, guid: 056a44ba793f718419936e9a36275bc3, type: 3}
+  - {fileID: 21300032, guid: 056a44ba793f718419936e9a36275bc3, type: 3}
