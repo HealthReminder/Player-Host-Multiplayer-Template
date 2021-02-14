@@ -47,14 +47,26 @@ using UnityEngine;
          
    }
     public void GameLoop() {
-
+        //These functions deals with players leaving the current match
+        if (CheckForPlayersLeft())
+            OnPlayerLeftRoom();
 
         //This is how you would make all the players do something
         //foreach(PhotonView player in player_list){
         //    player.RPC("RPC_PlayerSetup",RpcTarget.All);
         //}
    }
+bool CheckForPlayersLeft()
+    {
+        bool result = false;
 
+        player_count = players_array.Length;
+        for (int i = 0; i < player_count; i++)
+            if (players_array[i] == null)
+                result = true;
+
+        return result;
+    }
    public void OnPlayerLeftRoom ()  {
        Debug.Log("A player left the room.");
         if(!PhotonNetwork.IsMasterClient)
