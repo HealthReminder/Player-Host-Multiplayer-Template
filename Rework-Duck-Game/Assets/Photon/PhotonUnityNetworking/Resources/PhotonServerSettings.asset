@@ -55,5 +55,6 @@ MonoBehaviour:
   - RPC_SynchronizePlayer
   - RPC_NewPlayer
   - CreatePlayer
+  - RPC_PostMessage
   DisableAutoOpenWizard: 1
   ShowSettings: 1
